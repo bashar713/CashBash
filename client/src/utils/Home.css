@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding :0 ; 
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid red;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.hero_img{
+    background-image: url('../img/background.jpg');
+    padding: 10rem;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border: 2px solid green; 
+}
+.content_wrapper{
+    width: 100%;
+    border: 2px solid blue;
+}
